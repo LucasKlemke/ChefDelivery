@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct OrderTypeViewswift: View {
+struct OrderTypeView: View {
     
     let orderType: OrderType
     
@@ -26,5 +26,5 @@ struct OrderTypeViewswift: View {
 
 
 #Preview (traits: .sizeThatFitsLayout) {
-    OrderTypeViewswift(orderType: OrderType(id: 1, name: "Restaurantes", image: "hamburguer"))
+    OrderTypeView(orderType: OrderType(id: 1, name: "Restaurantes", image: "hamburguer"))
 }
